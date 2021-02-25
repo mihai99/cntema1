@@ -1,6 +1,6 @@
 # This is a sample Python script.
 from task1 import run as run_task1
-from task2 import run as run_task2
+from task2 import run_addition as run_task2_addition
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
@@ -15,5 +15,5 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 precision = run_task1()
-run_task2(precision)
+run_task2_addition()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
