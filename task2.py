@@ -9,4 +9,4 @@ def run_addition():
         c = pre / 10
         not_equal = bool((a + b) + c == a + (b + c))
         u = u + 1
-    print("Precizia masina la asociativitatea adunatii: ", u)
+    return u

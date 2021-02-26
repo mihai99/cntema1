@@ -6,5 +6,5 @@ def run():
         result = 1.0 + pow(10, -u)
         not_equal = bool(result != 1.0)
         u = u+1
-    print("Precizia masina: ", u)
+    print(u)
     return u

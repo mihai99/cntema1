@@ -1,6 +1,9 @@
 # This is a sample Python script.
 from task1 import run as run_task1
 from task2 import run_addition as run_task2_addition
+from task3 import calc_tan
+
+
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
@@ -16,4 +19,5 @@ if __name__ == '__main__':
 
 precision = run_task1()
 run_task2_addition()
+calc_tan(1)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
